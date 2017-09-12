@@ -9,7 +9,101 @@
 <ion-content padding>
 	
 	<button ion-button block color="primary" (click)="showHello()">Say Hello</button>
-	
+
 	<h2 text-center *ngIf="hello==true">Hello World!</h2>
 
+	<h1>Buttons</h1>
+	
+	<h2>Basic and default</h2>
+	<button ion-button>Ionic</button>
+	
+	<h2>Colors</h2>
+	<button ion-button color="primary">Primary</button>
+	<button ion-button color="secondary">Secondary</button>
+	<button ion-button color="danger">Danger</button>
+	<button ion-button color="light">Light</button>
+	<button ion-button color="dark">Dark</button>
+	<button ion-button color="minha">Minha Cor</button>
+	<button ion-button color="outra">Outra Cor</button>
+
+	<h2>Outline</h2>
+	<button ion-button outline color="primary">Primary</button>
+	<button ion-button outline color="secondary">Secondary</button>
+	<button ion-button outline color="danger">Danger</button>
+
+	<h2>Clear</h2>
+	<button ion-button clear color="primary">Primary</button>
+	<button ion-button clear color="secondary">Secondary</button>
+	<button ion-button clear color="danger">Danger</button>
+
+	<h2>Round</h2>
+	<button ion-button round color="primary">Primary</button>
+	<button ion-button round color="secondary">Secondary</button>
+	<button ion-button round color="danger">Danger</button>
+
+	<h2>Block</h2>
+	<button ion-button block color="primary">Primary</button>
+	<button ion-button block color="secondary">Secondary</button>
+	<button ion-button block color="danger">Danger</button>
+
+	<h2>Full</h2>
+	<button ion-button full color="primary">Primary</button>
+	<button ion-button full color="secondary">Secondary</button>
+	<button ion-button full color="danger">Danger</button>
+
+	<h2>Sizes</h2>
+	<button ion-button small color="primary">Small</button>
+	<button ion-button color="secondary">Default</button>
+	<button ion-button large color="danger">Large</button>
+
+	<h2>Icons</h2>
+	<button ion-button icon-left>
+		<ion-icon name="arrow-back"></ion-icon>
+		Back
+	</button>
+
+	<button ion-button icon-only>
+		<ion-icon name="home"></ion-icon>
+	</button>
+
+	<button ion-button icon-right>
+		Next
+		<ion-icon name="arrow-forward"></ion-icon>		
+	</button>
+
+	<h2>Modes</h2>
+	<button ion-button mode="md" color="primary">Android</button>
+	<button ion-button mode="ios" color="secondary">Ios</button>
+	<button ion-button mode="wp" color="danger">Windows</button>
+
+	<h2>Strong</h2>
+	<button ion-button strong color="primary">Ionic 3</button>
+	<button ion-button strong color="secondary">Ionic 3</button>
+	<button ion-button strong color="danger">Ionic 3</button>
+
+	<h2>Property e Event Binding</h2>
+	<button ion-button [color]="myColor">Ionic 3</button>    	 <!--Property Binding-->
+	<button ion-button [color]="isDanger ? 'danger' : 'primary'">Ionic 3</button>
+	<button ion-button [round]="isRound">Ionic 3</button>
+	<button ion-button [clear]="isClear">Ionic 3</button>
+	<button ion-button (click)="onClick($event)">Click</button>
+
 </ion-content>
+
+<ion-footer>
+	<ion-toolbar>
+		
+		<ion-buttons>
+			
+			<button ion-button icon-only>
+				<ion-icon name="add"></ion-icon>
+			</button>
+
+			<button ion-button icon-only>
+				<ion-icon name="contact"></ion-icon>
+			</button>
+
+		</ion-buttons>
+
+	</ion-toolbar>
+</ion-footer>
