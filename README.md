@@ -2,9 +2,10 @@ Esse é  um projeto básico em [Ionic](http://ionicframework.com/docs/), criado
 
 ## Como utilizar esse projeto
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+*Esse projeto já vem com uma serie de exemplos de componentes em seu codigo, caso você deseje criar um projeto do zero, pode seguir os passos explicados no [Get started with Ionic Framework](https://ionicframework.com/getting-started/).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Antes de começar você precisa possuir o [Node.js](https://nodejs.org/en/download/) instalado.
+
 
 ### With the Ionic CLI:
 
