@@ -22,7 +22,7 @@ Com isso, seu sistema já está pronto para criar e utilizar projetos Ionic.
 Com tudo pronto, vamos dá um `git clone` em nosso projeto, escolha uma pasta de sua preferência e execute o comando abaixo:
 
 ```bash
-$ git clone https://github.com/jonathan1313/helloionic.git
+$ git clone https://github.com/jonathan1313/HelloIonic.git
 ```
 
 Acesse a pasta `helloionic` que foi criada na pasta que você escolheu, o comando para isso é:
