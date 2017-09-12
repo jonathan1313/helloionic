@@ -1,6 +1,6 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+Esse é  um projeto básico em [Ionic](http://ionicframework.com/docs/), criado para melhor compreensão de seus Componentes, Menus, Botões, Cards e Navegação entre paginas.
 
-## How to use this template
+## Como utilizar esse projeto
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
