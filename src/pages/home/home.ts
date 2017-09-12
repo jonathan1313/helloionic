@@ -7,8 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+	public hello: boolean = false;
 
-  }
+  	constructor(public navCtrl: NavController) {
+
+  	}
+
+  	showHello(): void {
+  		this.hello = !this.hello;
+  	}
 
 }
