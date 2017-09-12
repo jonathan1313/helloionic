@@ -2,26 +2,39 @@ Esse é  um projeto básico em [Ionic](http://ionicframework.com/docs/), criado
 
 ## Como utilizar esse projeto
 
-*Esse projeto já vem com uma serie de exemplos de componentes em seu codigo, caso você deseje criar um projeto do zero, pode seguir os passos explicados no [Get started with Ionic Framework](https://ionicframework.com/getting-started/).
+### Configurando o ambiente de desenvolvimento:
+
+* Esse projeto já vem com uma serie de exemplos de componentes em seu codigo, caso você deseje criar um projeto do zero, pode seguir os passos explicados no [Get started with Ionic Framework](https://ionicframework.com/getting-started/).
 
 Antes de começar você precisa possuir o [Node.js](https://nodejs.org/en/download/) instalado.
 
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Após a instalação do Node.js, instale o Ionic e o Cordova através do comando abaixo.
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
 ```
+Com isso, seu sistema já está pronto para criar e utilizar projetos Ionic.
 
-Then, to run it, cd into `myBlank` and run:
+* Caso não tenha uma IDE de sua preferência para podé editar seus scripts, uma sugestão é o [Visual Studio Community](https://www.visualstudio.com/pt-br/vs/), ferramenta gratuita e desenvolvida pela Microsoft que já traz um exelente suporte ao Typescript e Angular.
+
+### Clonando e inicializando o projeto:
+
+Com tudo pronto, vamos dá um `git clone` em nosso projeto, escolha uma pasta de sua preferência e execute o comando abaixo:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ git clone https://github.com/jonathan1313/helloionic.git
 ```
 
-Substitute ios for android if not on a Mac.
+Acesse a pasta `helloionic` que foi criada na pasta que você escolheu, o comando para isso é:
 
+```bash
+$ cd helloionic
+```
+
+Agora dentro da pasta, podemos servir nossa aplicação no browser, com o comando:
+
+```bash
+$ ionic serve
+```
+
+Com isso, nosso projeto já está rodando e você está pronto para os estudos. ;) 
