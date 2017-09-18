@@ -1,26 +1,40 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+Esse é  um projeto básico em [Ionic](http://ionicframework.com/docs/), criado para melhor compreensão de seus Componentes, Menus, Botões, Cards e Navegação entre paginas.
 
-## How to use this template
+## Como utilizar esse projeto
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+### Configurando o ambiente de desenvolvimento:
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+* Esse projeto já vem com uma serie de exemplos de componentes em seu codigo, caso você deseje criar um projeto do zero, pode seguir os passos explicados no [Get started with Ionic Framework](https://ionicframework.com/getting-started/).
 
-### With the Ionic CLI:
+Antes de começar você precisa possuir o [Node.js](https://nodejs.org/en/download/) instalado.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Após a instalação do Node.js, instale o Ionic e o Cordova através do comando abaixo.
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
 ```
+Com isso, seu sistema já está pronto para criar e utilizar projetos Ionic.
 
-Then, to run it, cd into `myBlank` and run:
+* Caso não tenha uma IDE de sua preferência para podé editar seus scripts, uma sugestão é o [Visual Studio Community](https://www.visualstudio.com/pt-br/vs/), ferramenta gratuita e desenvolvida pela Microsoft que já traz um exelente suporte ao Typescript e Angular.
+
+### Clonando e inicializando o projeto:
+
+Com tudo pronto, vamos dá um `git clone` em nosso projeto, escolha uma pasta de sua preferência e execute o comando abaixo:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ git clone https://github.com/jonathan1313/HelloIonic.git
 ```
 
-Substitute ios for android if not on a Mac.
+Acesse a pasta `helloionic` que foi criada na pasta que você escolheu, o comando para isso é:
 
+```bash
+$ cd helloionic
+```
+
+Agora dentro da pasta, podemos servir nossa aplicação no browser, com o comando:
+
+```bash
+$ ionic serve
+```
+
+Com isso, nosso projeto já está rodando e você está pronto para os estudos. ;) 
