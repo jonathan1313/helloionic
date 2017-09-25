@@ -1,0 +1,109 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cards</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <h1>Cards</h1>
+  
+  <h2>Basic</h2>
+  <ion-card>
+    <ion-card-content>
+      Card Content
+    </ion-card-content>
+  </ion-card>
+
+  <h2>Header</h2>
+  <ion-card>
+    <ion-card-header>
+      Card Header
+    </ion-card-header>
+    <ion-card-content>
+      Card Content
+    </ion-card-content>
+  </ion-card>
+
+  <h2>Lists in cards</h2>
+  <ion-card>
+    <ion-card-header>Explore</ion-card-header>
+    <ion-list>
+
+      <button ion-item icon-left>
+        <ion-icon name="cart"></ion-icon>
+        Shopping
+      </button>
+
+      <button ion-item icon-left>
+          <ion-icon name="cafe"></ion-icon>
+          Coffee
+      </button>
+
+      <button ion-item icon-left>
+          <ion-icon name="planet"></ion-icon>
+          Space
+      </button>
+
+    </ion-list>
+  </ion-card>
+
+  <h2>Cards Images</h2>
+  <ion-card>
+
+    <img src="assets/icon/favicon.ico">
+
+    <ion-card-content>
+      <ion-card-title>My favorite Wallpapers</ion-card-title>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A aliquid culpa quam laborum deserunt est, suscipit distinctio molestiae atque eius dolorum maxime repellat? Reiciendis quisquam eum voluptates maiores culpa facilis laborum consectetur quaerat? Distinctio, dolores!</p>  
+    </ion-card-content>
+
+    <ion-row>
+
+      <ion-col>
+        <button ion-button clear small color="primary" icon-left>
+          <ion-icon name="star"></ion-icon>
+          Favorite
+        </button>
+      </ion-col>
+
+      <ion-col text-center>
+        <button ion-button clear small color="primary" icon-left>
+          <ion-icon name="musical-notes"></ion-icon>
+          Listen
+        </button>
+      </ion-col>
+
+      <ion-col text-right>
+        <button ion-button clear small color="primary" icon-left>
+          <ion-icon name="share-alt"></ion-icon>
+          Share
+        </button>
+      </ion-col>
+
+    </ion-row>
+
+  </ion-card>
+
+  <h2>Backgorund Images</h2>
+  <div class="custom-cards">
+    <ion-card>
+      <img src="assets/icon/favicon.ico">
+      <div class="card-title">First</div>
+      <div class="card-subtitle">SubTitle</div>
+    </ion-card>
+
+    <ion-card>
+      <img src="assets/icon/favicon.ico">
+      <div class="card-title">First</div>
+      <div class="card-subtitle">SubTitle</div>
+    </ion-card>
+  </div>
+
+  <ion-fab right bottom>
+    <button ion-fab color="primary"><ion-icon name="md-add"></ion-icon></button>
+  </ion-fab>
+
+</ion-content>

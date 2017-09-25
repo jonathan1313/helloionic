@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { ListsPage } from '../lists/lists';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -25,6 +27,10 @@ export class HomePage {
 
   	onClick(event: MouseEvent): void {
   		console.log(event);
+  	}
+
+  	goToLists(): void {
+  		this.navCtrl.push(ListsPage);
   	}
 
 }
