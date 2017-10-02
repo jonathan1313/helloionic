@@ -30,6 +30,11 @@ Acesse a pasta `helloionic` que foi criada na pasta que você escolheu, o comand
 ```bash
 $ cd helloionic
 ```
+Antes de servimos nossa aplicação, devemos instalar as dependecias necessárias,usando o seguinte comando:
+
+```bash
+$ npm install
+```
 
 Agora dentro da pasta, podemos servir nossa aplicação no browser, com o comando:
 
